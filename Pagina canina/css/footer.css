@@ -1,0 +1,21 @@
+footer{
+
+    background-color: #993EA2;
+    
+}
+
+footer > * {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer > section > *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}

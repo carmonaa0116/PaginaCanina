@@ -1,0 +1,125 @@
+/* Estilos generales */
+header {
+    border: 2px solid #333;
+    border-radius: 0 0 8px 8px;
+    background-color: white;
+    box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 20px;
+}
+
+/* Logo */
+#imagenLogo {
+    height: 7vh;
+    width: auto;
+}
+
+/* Barra de navegación */
+.navBar {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar>* {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.navBar>*:hover {
+    background-color: rgb(197, 197, 197);
+    transition: 0.2s;
+}
+
+.barraDeBusqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#logoBusqueda {
+    width: auto;
+    height: 2vh;
+}
+
+/* Media Queries para hacer el diseño responsive */
+
+/* Pantallas medianas (Tablets) */
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    #imagenLogo {
+        height: 5vh;
+    }
+
+    .navBar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .barraDeBusqueda {
+        margin-top: 10px;
+    }
+}
+
+/* Pantallas pequeñas (Móviles) */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #imagenLogo {
+        height: 4vh;
+    }
+
+    .navBar {
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .barraDeBusqueda {
+        margin-top: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Pantallas muy pequeñas */
+@media (max-width: 480px) {
+    header {
+        padding: 5px;
+    }
+
+    #imagenLogo {
+        height: 4vh;
+    }
+
+    .navBar {
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .barraDeBusqueda {
+        margin-top: 10px;
+        width: 100%;
+    }
+}

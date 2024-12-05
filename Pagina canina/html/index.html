@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/navBar.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Document</title>
+    <!-- Favicon -->
+    <link rel="icon" href="../img/logo.jpg" type="image/x-icon">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">
+                <img src="../img/logo.jpg" alt="logo" id="imagenLogo">
+            </a>
+        </div>
+        <div class="navBar">
+            <a href="#">INICIO</a>
+            <a href="#">PRODUCTOS</a>
+            <a href="#">SOBRE NOSOTROS</a>
+        </div>
+        <div class="barraDeBusqueda">
+            <form action="">
+                <!-- Autofocus y Placeholder -->
+                <input type="search" placeholder="Buscar..." autofocus>
+            </form>
+            <img src="../img/logoBusqueda.png" alt="logoBusqueda" id="logoBusqueda">
+        </div>
+    </header>
+    <main>
+        <div class="frase">
+            <h1>EL MEJOR ALIMENTO PARA TU MEJOR AMIGO</h1>
+        </div>
+        <div class="articulos">
+            <div class="articulo">
+                <img src="../img/articulo1.jpg" alt="imagen" class="imagenArticulo">
+                <p>19.99€</p>
+                <p>Alimento Premium para Perro</p>
+            </div>
+            <div class="articulo">
+                <img src="../img/articulo2.jpg" alt="imagen" class="imagenArticulo">
+                <p>15.50€</p>
+                <p>Golosinas Deliciosas para Perros</p>
+            </div>
+            <div class="articulo">
+                <img src="../img/articulo3.jpg" alt="imagen" class="imagenArticulo">
+                <p>9.99€</p>
+                <p>Juguete Interactivo para Perro</p>
+            </div>
+            <div class="articulo">
+                <img src="../img/articulo4.jpg" alt="imagen" class="imagenArticulo">
+                <p>25.00€</p>
+                <p>Cama Ortópedica para Perro</p>
+            </div>
+            <div class="articulo">
+                <img src="../img/articulo5.jpg" alt="imagen" class="imagenArticulo">
+                <p>12.99€</p>
+                <p>Collar Antipulgas</p>
+            </div>
+            <div class="articulo">
+                <img src="../img/articulo6.jpg" alt="imagen" class="imagenArticulo">
+                <p>5.99€</p>
+                <p>Plato Antideslizante para Comida</p>
+            </div>
+        </div>
+        <section class="promocion">
+            <h2>¡COMPRA AHORA Y CONSIGUE UNA TAZA PARA TU PERRO!</h2>
+            <div class="imagenesPromocion">
+                <img src="../img/perroSorpresa.png" alt="" id="perroSorpresa">
+                <img src="../img/tazaPerro.png" alt="Taza del producto" id="tazaPerro">
+            </div>
+            
+            <p>¡Compra nuestra taza especial para tu mascota!</p>
+            <button>COMPRAR</button>
+        </section>
+
+        <summary class="sobreNosotros">
+            <h1>Conócenos</h1>
+            <p>En Pawsitive Life, nos dedicamos a ofrecer productos de alta calidad para tus mascotas, brindando
+                alimentos nutricionales que mantienen a tu mejor amigo saludable y feliz. Con años de experiencia en el
+                mercado, nuestra misión es proporcionar productos que fomenten una vida activa y larga para tus
+                compañeros peludos.</p>
+            <p>Nos apasiona la salud de los animales y trabajamos con los mejores proveedores para garantizar que cada
+                uno de nuestros productos cumpla con los más altos estándares. Desde alimentos balanceados hasta
+                golosinas deliciosas, tenemos lo que necesitas para consentir a tu mascota.</p>
+        </summary>
+
+
+
+    </main>
+    <footer>
+        <br><br>
+        <p>&copy; Todos los derechos reservados.</p>
+        <section>
+            <h2>Encuentra tu producto</h2>
+            <label for="productos">Selecciona un producto:</label>
+            <input list="productos" id="productos" name="productos" placeholder="Escribe o selecciona un producto">
+            <datalist id="productos">
+                <option value="Alimento Premium para Perro">
+                <option value="Golosinas Deliciosas para Perros">
+                <option value="Juguete Interactivo para Perro">
+                <option value="Cama Ortópedica para Perro">
+            </datalist>
+        </section>
+    </footer>
+
+</body>
+
+</html>
